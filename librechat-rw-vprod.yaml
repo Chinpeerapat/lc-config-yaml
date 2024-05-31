@@ -5,6 +5,9 @@ fileStrategy: "firebase"
 registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 endpoints:
+  assistants:
+    disableBuilder: false
+    supportedIds: ["asst_wy06Z2cCh1uHtguXA7bjLQ1N", "asst_Mejdw0c45dK8eNbXczQ3Yqip"]
   custom:
     # Anyscale
     - name: "Anyscale"
